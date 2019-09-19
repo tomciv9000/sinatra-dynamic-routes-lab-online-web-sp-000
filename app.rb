@@ -29,7 +29,7 @@ class App < Sinatra::Base
     if @operation = "add"
       "#{@num1 + @num2}"
       elsif @operation = "subtract"
-        "#{@num2 - @num1}"  
+        "#{@num1 - @num2}"  
       elsif @operation = "multiply"
       "#{@num1*@num2}" 
       elsif @operation = "divide"
